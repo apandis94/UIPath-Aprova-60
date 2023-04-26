@@ -1,0 +1,58 @@
+11/23/2022 14:01:26 => [Debug] Execution started for file: Main
+11/23/2022 14:01:28 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/
+11/23/2022 14:02:28 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child.asp?action=4010045
+11/23/2022 14:02:39 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:02:56 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:02:57 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:03:26 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:03:36 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/23/2022 14:03:38 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/23/2022 14:03:40 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:03:47 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/23/2022 14:03:49 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/23/2022 14:03:51 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:03:56 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:04:02 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300b&PageId=30002&PKey1=xxx
+11/23/2022 14:04:03 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300b&PageId=30002&PKey1=xxx
+11/23/2022 14:04:08 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:04:23 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:04:34 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:05:19 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?action=4010052&PageId=310&DataSchemeId=0310&PKey1=3100804
+11/23/2022 14:05:40 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:06:17 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:06:23 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/23/2022 14:06:34 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:06:41 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=A2PH&PKey3=&PKey4=&Row=10&PageIndex=1
+11/23/2022 14:06:56 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:07:04 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=A2033&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/23/2022 14:07:06 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:07:11 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/23/2022 14:07:18 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:07:24 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=ANF&PKey3=&PKey4=&Row=10&PageIndex=1
+11/23/2022 14:07:30 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:08:00 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:08:25 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:08:26 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:08:28 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:08:49 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:09:19 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:09:22 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:09:47 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:09:58 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:10:28 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:10:30 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:11:28 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:12:13 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=&PageId=6036
+11/23/2022 14:12:16 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:12:18 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:13:02 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?action=4010052&PageId=6050&DataSchemeId=6050&PKey1=3100804&strAction=Add
+11/23/2022 14:13:07 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:13:08 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:13:14 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:13:16 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:13:44 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:13:51 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:13:54 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:14:21 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/23/2022 14:14:29 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/23/2022 14:14:32 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp

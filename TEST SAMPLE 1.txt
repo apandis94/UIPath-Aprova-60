@@ -1,0 +1,138 @@
+11/18/2022 10:32:55 => [Debug] Execution started for file: Main
+11/18/2022 10:32:57 => [Info] IE on Edge execution started
+11/18/2022 10:32:59 => [Info] Audit: Using Excel File: C:\Users\Nia Yusniati\OneDrive\Documents\UiPath\IE on Edge\TESTING.xlsx
+11/18/2022 10:33:03 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/
+11/18/2022 10:34:18 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child.asp?action=4010045
+11/18/2022 10:34:29 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:34:58 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:34:59 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:35:31 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:36:08 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/18/2022 10:36:26 => [Error] UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive
+   at UiPath.UIAutomationNext.Activities.TargetCommonLogic.GetSearchResultAsync(IRuntimeContext runtimeContext, ITargetAnchorable target, CancellationToken token)
+   at UiPath.UIAutomationNext.Activities.NClick.UiPath.UIAutomationNext.Activities.IVerifyExecutionActivity.ExecuteAsync(IRuntimeContext context, IActivityData data, CancellationToken cancellationToken)
+   at UiPath.UIAutomationNext.Activities.Services.VerifyExecutionService.ExecuteWithVerifyAsync[T](IVerifyExecutionActivity activity, IVerifyExecutionRuntimeContext verifyContext, IRuntimeContext context, T data, CancellationToken token)
+   at UiPath.UIAutomationNext.Activities.NClick.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+11/18/2022 10:36:32 => [Info] Ignore
+11/18/2022 10:36:32 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/18/2022 10:36:37 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:36:45 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/18/2022 10:36:46 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300a&PageId=30001&PKey1=xxx
+11/18/2022 10:36:49 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:36:55 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:37:00 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300b&PageId=30002&PKey1=xxx
+11/18/2022 10:37:01 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=300b&PageId=30002&PKey1=xxx
+11/18/2022 10:37:07 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:37:23 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:37:36 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:38:20 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?action=4010052&PageId=310&DataSchemeId=0310&PKey1=3100804
+11/18/2022 10:38:43 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:39:21 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:39:28 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:39:43 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:39:50 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=A2PH&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:40:07 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:40:17 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=A2033&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:40:19 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:40:25 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:40:34 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:40:40 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=ANF&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:40:48 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:41:56 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:42:22 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:42:23 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:42:26 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:43:13 => [Error] UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive
+   at UiPath.UIAutomationNext.Activities.TargetCommonLogic.GetSearchResultAsync(IRuntimeContext runtimeContext, ITargetAnchorable target, CancellationToken token)
+   at UiPath.UIAutomationNext.Activities.NClick.UiPath.UIAutomationNext.Activities.IVerifyExecutionActivity.ExecuteAsync(IRuntimeContext context, IActivityData data, CancellationToken cancellationToken)
+   at UiPath.UIAutomationNext.Activities.Services.VerifyExecutionService.ExecuteWithVerifyAsync[T](IVerifyExecutionActivity activity, IVerifyExecutionRuntimeContext verifyContext, IRuntimeContext context, T data, CancellationToken token)
+   at UiPath.UIAutomationNext.Activities.NClick.ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivityImplementation.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.AsyncTaskCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at UiPath.Shared.Activities.ContinuableAsyncCodeActivity.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+11/18/2022 10:43:36 => [Info] Retry
+11/18/2022 10:43:56 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:44:33 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:44:46 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:45:18 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:45:41 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:46:20 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:46:26 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:47:27 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:48:40 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?DataSchemeId=&PageId=6036
+11/18/2022 10:48:43 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:48:49 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:49:33 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?action=4010052&PageId=6050&DataSchemeId=6050&PKey1=3100804&strAction=Add
+11/18/2022 10:49:40 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:49:41 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:49:48 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:49:54 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:50:24 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:50:32 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:50:48 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:51:19 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:51:28 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:51:32 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:51:38 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/
+11/18/2022 10:52:47 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child.asp?action=4010045
+11/18/2022 10:53:00 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:53:30 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:53:31 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:54:06 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:54:19 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:55:03 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_csf.asp?action=4010052&PageId=310&DataSchemeId=0310&PKey1=3100804
+11/18/2022 10:55:29 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:55:31 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:56:12 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:56:20 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:56:33 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:56:41 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=9430&PKey2=A2PH&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:56:58 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:57:08 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=A2033&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:57:11 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:57:17 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:57:27 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:57:33 => [Debug] Audit: Using Web App. Browser: IE URL: http://192.168.29.21/aprova/child_aprova.asp?DataSchemeId=&PageId=GENSERC&PKey1=TYT&PKey2=ANF&PKey3=&PKey4=&Row=10&PageIndex=1
+11/18/2022 10:57:42 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:58:57 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:59:25 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 10:59:27 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 10:59:31 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:00:05 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:00:41 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:00:53 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:01:25 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:01:42 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:02:16 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:02:21 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:03:24 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:03:54 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:04:01 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:04:33 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:04:46 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:04:55 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:05:00 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:05:32 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:05:46 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:05:55 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\Internet Explorer\iexplore.exe Arguments:
+11/18/2022 11:05:59 => [Debug] Audit: Using Web App. Browser: Edge URL: http://192.168.29.21/aprova/parser.asp
+11/18/2022 11:06:07 => [Info] IE on Edge execution ended in: 00:33:10
